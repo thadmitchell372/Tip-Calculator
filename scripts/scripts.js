@@ -1,4 +1,4 @@
-// Submit all inputs + select via "Calculate Tip" button
+// Submit all inputs + select option via "Calculate Tip" button
 window.onload = () => {
   document.querySelector("#calculate").onclick = tipCalc;
 };
@@ -29,5 +29,7 @@ function tipCalc() {
   console.log(tip);
   console.log(total);
 
-  document.getElementById("Tip").innerHTML = "The total tip cost is:" + tip;
+// Displays the total and the tip
+  document.getElementById("tip").innerHTML= 'Tip Due - $'+tip;
+  document.getElementById("total").innerHTML= 'Total Due - $' + total + ' per person';
 }
