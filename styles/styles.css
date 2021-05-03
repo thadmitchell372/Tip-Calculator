@@ -6,3 +6,18 @@
 #total {
 	display: block;
 } */
+
+h1 {
+	text-align: center;
+	background-color: aqua;
+}
+body {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  border-style: dashed;
+  border-color: green;
+}
+#gif {
+  background-image: url("https://acegif.com/wp-content/gifs/raining-money-8.gif") ;
+}
